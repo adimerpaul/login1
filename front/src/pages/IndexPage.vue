@@ -1,7 +1,7 @@
 <!-- src/pages/LoginPage.vue -->
 <template>
   <div class="q-pa-md flex flex-center column">
-    <q-btn color="red" icon="mdi-google" label="Continuar con Google" @click="goGoogle"/>
+    <q-btn color="red" icon="login" label="Continuar con Google" @click="goGoogle" no-caps/>
     <pre>{{url}}</pre>
   </div>
 </template>

@@ -6,6 +6,11 @@ const routes = [
       { path: '', component: () => import('pages/IndexPage.vue') }
     ]
   },
+  // AuthCallback
+  {
+    path: '/auth/callback',
+    component: () => import('pages/AuthCallback.vue')
+  },
 
   // Always leave this as last one,
   // but you can also remove it
